@@ -1,15 +1,18 @@
 <script>
 
     var card = document.querySelector('.card');
+    // var cardface = document.getElementByClassName('card-face-front');
     var button = document.querySelector('.flip-to-rear');
     var button2 = document.querySelector('.btn-rear');
 
     button.addEventListener( 'click', function() {
         card.classList.toggle('is-flipped');
+        // cardface.classList.toggle('is-hidden');
     });
 
     button2.addEventListener( 'click', function() {
         card.classList.toggle('is-flipped');
+        // cardface.classList.toggle('is-hidden');
     });
 
 </script>
